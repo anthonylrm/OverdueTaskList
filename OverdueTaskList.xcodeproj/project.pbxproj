@@ -14,13 +14,17 @@
 		3E19B990184054E000D5BEA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E19B98F184054E000D5BEA2 /* main.m */; };
 		3E19B994184054E000D5BEA2 /* AMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E19B993184054E000D5BEA2 /* AMAppDelegate.m */; };
 		3E19B997184054E000D5BEA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E19B995184054E000D5BEA2 /* Main.storyboard */; };
-		3E19B99A184054E000D5BEA2 /* AMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E19B999184054E000D5BEA2 /* AMViewController.m */; };
 		3E19B99C184054E000D5BEA2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E19B99B184054E000D5BEA2 /* Images.xcassets */; };
 		3E19B9A3184054E000D5BEA2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E19B9A2184054E000D5BEA2 /* XCTest.framework */; };
 		3E19B9A4184054E000D5BEA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E19B983184054E000D5BEA2 /* Foundation.framework */; };
 		3E19B9A5184054E000D5BEA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E19B987184054E000D5BEA2 /* UIKit.framework */; };
 		3E19B9AD184054E000D5BEA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E19B9AB184054E000D5BEA2 /* InfoPlist.strings */; };
 		3E19B9AF184054E000D5BEA2 /* OverdueTaskListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E19B9AE184054E000D5BEA2 /* OverdueTaskListTests.m */; };
+		3E19B9BA184057C200D5BEA2 /* AMAddTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E19B9B9184057C200D5BEA2 /* AMAddTaskViewController.m */; };
+		3E19B9BD18405E2300D5BEA2 /* AMTaskDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E19B9BC18405E2300D5BEA2 /* AMTaskDetailViewController.m */; };
+		3E19B9C018405F1700D5BEA2 /* AMTaskTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E19B9BF18405F1700D5BEA2 /* AMTaskTableViewController.m */; };
+		3E19B9C31840609D00D5BEA2 /* AMEditTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E19B9C21840609D00D5BEA2 /* AMEditTaskViewController.m */; };
+		3E24C7B31841289A004AD54A /* AMTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E24C7B21841289A004AD54A /* AMTask.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +49,22 @@
 		3E19B992184054E000D5BEA2 /* AMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMAppDelegate.h; sourceTree = "<group>"; };
 		3E19B993184054E000D5BEA2 /* AMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMAppDelegate.m; sourceTree = "<group>"; };
 		3E19B996184054E000D5BEA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3E19B998184054E000D5BEA2 /* AMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMViewController.h; sourceTree = "<group>"; };
-		3E19B999184054E000D5BEA2 /* AMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMViewController.m; sourceTree = "<group>"; };
 		3E19B99B184054E000D5BEA2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3E19B9A1184054E000D5BEA2 /* OverdueTaskListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OverdueTaskListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E19B9A2184054E000D5BEA2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3E19B9AA184054E000D5BEA2 /* OverdueTaskListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OverdueTaskListTests-Info.plist"; sourceTree = "<group>"; };
 		3E19B9AC184054E000D5BEA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3E19B9AE184054E000D5BEA2 /* OverdueTaskListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverdueTaskListTests.m; sourceTree = "<group>"; };
+		3E19B9B8184057C200D5BEA2 /* AMAddTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAddTaskViewController.h; sourceTree = "<group>"; };
+		3E19B9B9184057C200D5BEA2 /* AMAddTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAddTaskViewController.m; sourceTree = "<group>"; };
+		3E19B9BB18405E2300D5BEA2 /* AMTaskDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMTaskDetailViewController.h; sourceTree = "<group>"; };
+		3E19B9BC18405E2300D5BEA2 /* AMTaskDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMTaskDetailViewController.m; sourceTree = "<group>"; };
+		3E19B9BE18405F1700D5BEA2 /* AMTaskTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMTaskTableViewController.h; path = ../AMTaskTableViewController.h; sourceTree = "<group>"; };
+		3E19B9BF18405F1700D5BEA2 /* AMTaskTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMTaskTableViewController.m; path = ../AMTaskTableViewController.m; sourceTree = "<group>"; };
+		3E19B9C11840609D00D5BEA2 /* AMEditTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMEditTaskViewController.h; sourceTree = "<group>"; };
+		3E19B9C21840609D00D5BEA2 /* AMEditTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMEditTaskViewController.m; sourceTree = "<group>"; };
+		3E24C7B11841289A004AD54A /* AMTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMTask.h; sourceTree = "<group>"; };
+		3E24C7B21841289A004AD54A /* AMTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMTask.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +127,15 @@
 				3E19B992184054E000D5BEA2 /* AMAppDelegate.h */,
 				3E19B993184054E000D5BEA2 /* AMAppDelegate.m */,
 				3E19B995184054E000D5BEA2 /* Main.storyboard */,
-				3E19B998184054E000D5BEA2 /* AMViewController.h */,
-				3E19B999184054E000D5BEA2 /* AMViewController.m */,
+				3E19B9BE18405F1700D5BEA2 /* AMTaskTableViewController.h */,
+				3E19B9BF18405F1700D5BEA2 /* AMTaskTableViewController.m */,
+				3E19B9B8184057C200D5BEA2 /* AMAddTaskViewController.h */,
+				3E19B9B9184057C200D5BEA2 /* AMAddTaskViewController.m */,
+				3E19B9BB18405E2300D5BEA2 /* AMTaskDetailViewController.h */,
+				3E19B9BC18405E2300D5BEA2 /* AMTaskDetailViewController.m */,
+				3E19B9C11840609D00D5BEA2 /* AMEditTaskViewController.h */,
+				3E19B9C21840609D00D5BEA2 /* AMEditTaskViewController.m */,
+				3E24C7B41841295F004AD54A /* Model */,
 				3E19B99B184054E000D5BEA2 /* Images.xcassets */,
 				3E19B98A184054E000D5BEA2 /* Supporting Files */,
 			);
@@ -150,6 +169,15 @@
 				3E19B9AB184054E000D5BEA2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E24C7B41841295F004AD54A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3E24C7B11841289A004AD54A /* AMTask.h */,
+				3E24C7B21841289A004AD54A /* AMTask.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,8 +279,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E19B994184054E000D5BEA2 /* AMAppDelegate.m in Sources */,
-				3E19B99A184054E000D5BEA2 /* AMViewController.m in Sources */,
+				3E19B9BD18405E2300D5BEA2 /* AMTaskDetailViewController.m in Sources */,
+				3E19B9BA184057C200D5BEA2 /* AMAddTaskViewController.m in Sources */,
+				3E19B9C018405F1700D5BEA2 /* AMTaskTableViewController.m in Sources */,
+				3E24C7B31841289A004AD54A /* AMTask.m in Sources */,
 				3E19B990184054E000D5BEA2 /* main.m in Sources */,
+				3E19B9C31840609D00D5BEA2 /* AMEditTaskViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +493,7 @@
 				3E19B9B4184054E000D5BEA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E19B9B5184054E000D5BEA2 /* Build configuration list for PBXNativeTarget "OverdueTaskListTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +502,7 @@
 				3E19B9B7184054E000D5BEA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

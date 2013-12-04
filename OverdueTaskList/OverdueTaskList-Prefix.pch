@@ -10,6 +10,12 @@
 #warning "This project uses features only available in iOS SDK 5.0 and later."
 #endif
 
+#define STORED_TASKS_ARRAY @"Stored Tasks"
+#define TASK_NAME @"Name"
+#define TASK_DESCRIPTION @"Description"
+#define TASK_DUE_DATE   @"Date"
+#define TASK_COMPLETE @"Complete"
+
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
