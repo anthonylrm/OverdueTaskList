@@ -334,12 +334,14 @@
 }
 
 
+
 #pragma mark - IBActions
 
 - (IBAction)addTaskBarButtonPressed:(UIBarButtonItem *)sender
 {
     [self performSegueWithIdentifier:@"toAddTaskVC" sender:sender];
 }
+
 
 - (IBAction)reorderBarButtonpressed:(UIBarButtonItem *)sender {
 

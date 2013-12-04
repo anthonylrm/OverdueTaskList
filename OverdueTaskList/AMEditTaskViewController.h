@@ -20,7 +20,7 @@
 
 
 
-@interface AMEditTaskViewController : UIViewController
+@interface AMEditTaskViewController : UIViewController <UITextFieldDelegate, UITextViewDelegate>
 
 @property (weak, nonatomic) id <AMEditTaskViewController> delegate;
 

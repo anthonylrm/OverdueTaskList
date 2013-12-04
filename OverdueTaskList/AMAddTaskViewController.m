@@ -37,6 +37,25 @@
 }
 
 
+#pragma mark - UITextView and UITextField delegate
+
+-(BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [textField resignFirstResponder];
+    return NO;
+}
+
+
+-(BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text
+{
+    if ([text isEqualToString:@"\n"]) {
+        //range.length==0
+        [textView resignFirstResponder];
+        return NO;
+    } else {
+        return YES;
+    }
+}
 
 #pragma mark - helper methods
 
@@ -62,6 +81,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    self.taskNameTextField.delegate = self;
+    self.taskDescriptionTextView.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning
